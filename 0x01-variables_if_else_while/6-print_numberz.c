@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
   * main - Prints all single digits
-  * Not allowed to use any variables of type char
   *
   * Return: 0
   */
@@ -9,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 'O'; i <= 10; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
 	}
