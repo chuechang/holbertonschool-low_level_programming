@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  * main - print aplhabets in lowercase
+  * main - print aplhabets in lowercase except "q" and "e"
   *
   * Return: 0
   */
