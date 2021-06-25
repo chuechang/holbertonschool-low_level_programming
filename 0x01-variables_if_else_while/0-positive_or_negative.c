@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - Print if the number stored in varible is
- * postive or negative
+/**
+ * main - Print if stored variable is negatove or positive
  *
  * Return: 0
  */
+
 int main(void)
 {
 	int n;
