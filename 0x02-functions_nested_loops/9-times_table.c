@@ -13,30 +13,30 @@ void times_table(void)
 	while (x < 10)
 	{
 		y = 0;
-	while (y < 10)
+		while (y < 10)
 		{
 			p = x * y;
-		if (y == 0)
+			if (y == 0)
 			{
 				_putchar(p + '0');
 			}
-		else if (p < 10)
+			else if (p < 10)
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(p + '0');
 			}
-		else
+			else
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar((p / 10) + '0');
 				_putchar((p % 10) + '0');
 			}
-		y++;
+			y++;
 		}
 		_putchar('\n');
-	x++;
+		x++;
 	}
 }
